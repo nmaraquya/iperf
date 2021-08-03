@@ -404,7 +404,7 @@ struct iperf_test
 
 /* constants for command line arg sanity checks */
 #define MB (1024 * 1024)
-#define MAX_TCP_BUFFER (512 * MB)
+#define MAX_TCP_BUFFER (1024 * MB)
 #define MAX_BLOCKSIZE MB
 /* Minimum size UDP send is the size of two 32-bit ints followed by a 64-bit int */
 #define MIN_UDP_BLOCKSIZE (4 + 4 + 8)
